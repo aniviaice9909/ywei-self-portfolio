@@ -5,12 +5,8 @@
     --primary-color: #C29AF5;
 }
 
-
-body {
-    background-color: #003C7F;
-}
-
 * {
+    background-color: #003C7F;
     font-family: 'Readex Pro';
 }
 
