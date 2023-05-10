@@ -5,6 +5,8 @@ echo "\
 email = \"your-email@domain.com\"\n\
 " > ~/.streamlit/credentials.toml
 
+mkdir -p ~/.streamlit/
+
 echo "\
 [theme]\n\
 primarycolor = "#C29AF5"\n\
