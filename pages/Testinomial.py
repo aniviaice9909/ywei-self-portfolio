@@ -12,7 +12,7 @@ pic = current_dir / "images" / "1680673778592.jpg"
 PAGE_TITLE = "Testinomial | Yew Wei's Portfolio"
 PAGE_ICON = "🗒️"
 DESCRIPTION = """
-Welcome to my mini world! Here I would show what I've done and what I'm doing right now. I am an optimistic person, who loves to watch anime, travel, adventure and also taking challenges. I'm a biomedical engineering student, passionate and proficient in bionic, biocomputing, artificial intelligence, biomechanics, python, and C++, and also make games with Unreal Engine and Unity. I am also good at video quality analysis. I strive and continue to learn and advance myself in terms of knowledge, skills and mindset, hoping that I such a weak, useless and an inability person, have an opportunity to contribute something to the world's advancement. \n
+Welcome to my mini world! Here I would show what I've done and what I'm doing right now. I am an optimistic person, who loves to watch anime, travel, adventure and also taking challenges. I'm a biomedical engineering student, passionate and proficient in bionic, biocomputing, artificial intelligence, biomechanics, python and C++, and also make games with Unreal Engine and Unity. I am also good at video quality analysis. I strive and continue to learn and advance myself in terms of knowledge, skills and mindset, hoping that I such an inability person will have an opportunity to contribute something to the world's advancement. \n
 
 (ps: Since my laptop was spilt by coffee before 😢, I lose a bunch of data, including the game I have created before 😭. I will try to recover them and post at here gradually.)
 """
