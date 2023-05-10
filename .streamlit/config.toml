@@ -2,12 +2,15 @@
 # Primary accent colour for interactive elements.
 primarycolor = "#C29AF5"
 
+# Background color for the main content area.
+backgroundColor = "#003C7F"
+
 # Background color used for the sidebar and most interactive widgets.
 secondaryBackgroundColor = "#040404"
 
 # Color used for almost all text.
 textColor = "#FAFAFA"
 
-body {
-    background-color: #003C7F;
-}
+[params.background]
+# Set a background color for the entire page
+color = "#003C7F"
