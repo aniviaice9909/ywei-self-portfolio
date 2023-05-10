@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap'
 );
 
-:root {
-    --secondary-background-color: #040404;
-    --text-color: #FAFAFA;
-}
-
 * {
-    background-color: #003C7F;
     font-family: 'Readex Pro';
 }
 
@@ -41,20 +35,4 @@ footer {
 
 header {
     visibility: hidden;
-}
-
-.sidebar {
-    background-color: var(--secondary-background-color);
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
-    color: var(--text-color);
 }
