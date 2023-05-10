@@ -5,6 +5,12 @@
     font-family: 'Readex Pro';
 }
 
+body {
+    background-color: #003C7F;
+    /* Replace with your desired background color */
+    font-family: 'Readex Pro';
+}
+
 a {
     text-decoration: none;
     color: white !important;
