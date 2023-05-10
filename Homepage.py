@@ -2,7 +2,6 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 import base64
-from toml import theme
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -78,7 +77,6 @@ with col2:
         file_name="Resume_YewWei.pdf",
         mime="application/octet-stream"
     )
-    st.get_option(theme.secondaryBackgroundColor)
 
     st.download_button(
         label="📓 Portfolio Summary",
