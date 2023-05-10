@@ -6,6 +6,10 @@
     font-family: 'Readex Pro';
 }
 
+.button {
+    background-color: #0a0a23;
+}
+
 a {
     text-decoration: none;
     color: white !important;
