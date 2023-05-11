@@ -22,7 +22,7 @@ SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/ywei-teh/"
 }
 PORTFOLIO = {
-    "Testinomial": "Testinomial",
+    "Statement": "Statement",
     "Biomechanics": "Biomechanics",
     "Discord": "Discord",
     "Biomaterials": "Biomaterials",
@@ -93,8 +93,8 @@ st.write('')
 st.write('')
 
 # --- PORTFOLIO SETTINGS ---
-TESTINOMIAL_ICON = current_dir / "images" / "1680673778592.jpg"
-TESTINOMIAL_ICON = open(TESTINOMIAL_ICON, "rb")
+STATEMENT_ICON = current_dir / "images" / "1680673778592.jpg"
+STATEMENT_ICON = open(STATEMENT_ICON, "rb")
 
 BIOMECHANICS_ICON = current_dir / "images" / "Screenshot.png"
 BIOMECHANICS_ICON = open(BIOMECHANICS_ICON, "rb")
@@ -111,12 +111,12 @@ FFmpeg_ICON = open(FFmpeg_ICON, "rb")
 # --- PORTFOLIO SECTION ---
 col3, col4, col5 = st.columns(3, gap="small")
 with col3:
-    contents = TESTINOMIAL_ICON.read()
+    contents = STATEMENT_ICON.read()
     data_url = base64.b64encode(contents).decode("utf-8")
-    TESTINOMIAL_ICON.close()
+    STATEMENT_ICON.close()
 
-    st.markdown(f'''<div style="text-align: center;"><a href="{PORTFOLIO['Testinomial']}" target="_self"><img src="data:image/gif;base64,{data_url}" alt="ffmpeg" style="max-width: 100%; width: 400px; height: 550px;"></a></div>''', unsafe_allow_html=True)
-    html_mark = f'''<a href={PORTFOLIO['Testinomial']} target="_self" style="display: block; text-align: center;"><p style='font-size: 25px;'>{PORTFOLIO['Testinomial']}</p></a>'''
+    st.markdown(f'''<div style="text-align: center;"><a href="{PORTFOLIO['Statement']}" target="_self"><img src="data:image/gif;base64,{data_url}" alt="ffmpeg" style="max-width: 100%; width: 400px; height: 550px;"></a></div>''', unsafe_allow_html=True)
+    html_mark = f'''<a href={PORTFOLIO['Statement']} target="_self" style="display: block; text-align: center;"><p style='font-size: 25px;'>{PORTFOLIO['Statement']}</p></a>'''
 
     st.markdown(html_mark, unsafe_allow_html=True)
 with col4:
