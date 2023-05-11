@@ -36,7 +36,7 @@ st.markdown(
 
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True) # open css file for style
-st.markdown("<h1 style='text-align: center; color: white;'>Testinomial</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white;'>Statement</h1>", unsafe_allow_html=True)
 
 file = open(pic, "rb")
 contents = file.read()
