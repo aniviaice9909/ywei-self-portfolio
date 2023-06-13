@@ -38,7 +38,7 @@ link_text_3 = "https://youtu.be/SPTfmiYiuok"
 link_3 = f'<a href="{link_url_3}">{link_text_3}</a>'
 
 DESCRIPTION = f"""
-During the last COVID-19 pandemic period, my friends and I often chatted on Discord due to the lockdown situation. We talked about everything. However, in order to make our chat room more enjoyable and interesting, I decided to help my friends create a Discord bot that can play music from YouTube and Bilibili. Special thanks to the creators of “yt-dlp” Python library {link_2} and the “freeCodeCamp.org” Youtube tutorial {link_3} for guiding me on how to make this Discord bot.
+During the last COVID-19 pandemic period, a group of my close friends and I often chit-chatted on Discord due to the lockdown situation. We talked about everything and sometimes we would share some music or videos during our conversation. Therefore, in order to make our chat room more enjoyable and interesting, I decided to help my friends create a Discord bot that can play music from YouTube and Bilibili.. Special thanks to the creators of “yt-dlp” Python library {link_2} and the “freeCodeCamp.org” Youtube tutorial {link_3} for guiding me on how to make this Discord bot.
 Some important code is shown as following:
 
 """
